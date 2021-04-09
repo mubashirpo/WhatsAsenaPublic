@@ -376,6 +376,9 @@
         "wallpaper": {
             "WP": "Fərqli, yüksək qətnamə divar kağızı göndərir."
         },
+        "anime": {
+            "AN": "Təsadüfi bir Anime göndərir."
+        },
         "webss": {
             "SS_DESC": "Verilən linkdəki səhifədən ekran görüntüsü alır.",
             "LİNK": "Hər hansı bir linki daxil etməlisiniz!"
