@@ -378,6 +378,9 @@
         "wallpaper": {
             "WP": "It sends high resolution wallpapers."
         },
+        "anime": {
+            "AN": "It sends an Anime Randomly."
+        },
         "webss": {
             "SS_DESC": "Takes a screenshot from the page in the given link.",
             "LİNK": "You must enter link!"
