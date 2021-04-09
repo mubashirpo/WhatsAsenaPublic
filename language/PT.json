@@ -378,6 +378,9 @@
         "wallpaper": {
             "WP": "Envia papéis de parede de alta resolução."
         },
+        "anime": {
+            "AN": "Envia um anime aleatoriamente."
+        },
         "webss": {
             "SS_DESC": "Tira uma captura de tela da página no link fornecido.",
             "LİNK": "Você deve inserir o link!"
