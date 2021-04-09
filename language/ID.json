@@ -378,6 +378,9 @@
         "wallpaper": {
             "WP": "Mengirimkan wallpaper resolusi tinggi yang berbeda."
         },
+        "anime": {
+            "AN": "Ini mengirimkan Anime Secara Acak."
+        },
         "webss": {
             "SS_DESC": "Mengambil screenshot dari halaman di link yang diberikan.",
             "LİNK": "Anda harus memasukkan tautan apa pun!"
