@@ -22,10 +22,10 @@ if (Config.WORKTYPE == 'private') {
     Asena.addCommand({pattern: 'alive', fromMe: true, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Tanrı Türk\'ü Korusun. 🐺 Asena Hizmetinde!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/AsenaSupport\n*Telegram Channel:* https://t.me/asenaremaster' , MessageType.text);
+            await message.client.sendMessage(message.jid,'```🐺 Hey Bro!! I am Still Alive & Kicking 😉```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Developer:* Toxic Devil\n*Contact Developer:* Wa.me/919544707896' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n*Powered by WhatsAsena*', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n*Powered by WhatsAsenaPublic - Made By Toxic Devil*', MessageType.text);
         }
     }));
 
@@ -42,10 +42,10 @@ else if (Config.WORKTYPE == 'public') {
     Asena.addCommand({pattern: 'alive', fromMe: false, desc: Lang.ALIVE_DESC}, (async (message, match) => {
 
         if (Config.ALIVEMSG == 'default') {
-            await message.client.sendMessage(message.jid,'```Tanrı Türk\'ü Korusun. 🐺 Asena Hizmetinde!```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Telegram Group:* https://t.me/AsenaSupport\n*Telegram Channel:* https://t.me/asenaremaster' , MessageType.text);
+            await message.client.sendMessage(message.jid,'```🐺 Hey Bro!! I am Still Alive & Kicking 😉```\n\n*Version:* ```'+Config.VERSION+'```\n*Branch:* ```'+Config.BRANCH+'```\n*Developer:* Toxic Devil\n*Contact Developer:* Wa.me/919544707896' , MessageType.text);
         }
         else {
-            await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n*Powered by WhatsAsena*', MessageType.text);
+            await message.client.sendMessage(message.jid,Config.ALIVEMSG + '\n*Powered by WhatsAsenaPublic - Made By Toxic Devil*', MessageType.text);
         }
     }));
 
