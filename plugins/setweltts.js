@@ -8,6 +8,7 @@ WhatsAsenaPublic - TOXIC DEVIL
 
 const Asena = require('../events');
 const {MessageType,Mimetype} = require('@adiwajshing/baileys');
+const Config = require('../config');
 const fs = require('fs');
 const https = require('https');
 const googleTTS = require('google-translate-tts');
