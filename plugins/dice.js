@@ -27,9 +27,9 @@ if (con.LANG === 'TR' || 'az') {
 
     if (con.WORKTYPE === 'private') {
 
-        Asena.addCommand({pattern: 'roll', fromMe: true, desc: TRZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'roll', fromMe: true, desc: ENZAR}, (async (message, match) => {
 
-            await message.client.sendMessage(message.jid, TRSEN, MessageType.text);
+            await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
 
             // Numbers
@@ -43,15 +43,15 @@ if (con.LANG === 'TR' || 'az') {
 
             var i = Math.floor(6*Math.random())
 
-            await message.client.sendMessage(message.jid, TRSON + `${r_text[i]}`, MessageType.text);
+            await message.client.sendMessage(message.jid, ENSON + `${r_text[i]}`, MessageType.text);
 
         }));
     }
     else if (con.WORKTYPE === 'public') {
 
-        Asena.addCommand({pattern: 'roll', fromMe: false, desc: TRZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'roll', fromMe: false, desc: ENZAR}, (async (message, match) => {
 
-            await message.client.sendMessage(message.jid, TRSEN, MessageType.text);
+            await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
 
             // Numbers
@@ -65,7 +65,7 @@ if (con.LANG === 'TR' || 'az') {
 
             var i = Math.floor(6*Math.random())
 
-            await message.client.sendMessage(message.jid, TRSON + `${r_text[i]}`, MessageType.text);
+            await message.client.sendMessage(message.jid, ENSON + `${r_text[i]}`, MessageType.text);
 
         }));
     }
@@ -74,9 +74,9 @@ else if (con.LANG === 'HI') {
 
     if (con.WORKTYPE === 'private') {
 
-        Asena.addCommand({pattern: 'roll', fromMe: true, desc: HIZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'roll', fromMe: true, desc: ENZAR}, (async (message, match) => {
 
-            await message.client.sendMessage(message.jid, HISEN, MessageType.text);
+            await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
 
             // Numbers
@@ -90,15 +90,15 @@ else if (con.LANG === 'HI') {
 
             var i = Math.floor(6*Math.random())
 
-            await message.client.sendMessage(message.jid, HISON + `${r_text[i]}`, MessageType.text);
+            await message.client.sendMessage(message.jid, ENSON + `${r_text[i]}`, MessageType.text);
 
         }));
     }
     else if (con.WORKTYPE === 'public') {
 
-        Asena.addCommand({pattern: 'roll', fromMe: false, desc: HIZAR}, (async (message, match) => {
+        Asena.addCommand({pattern: 'roll', fromMe: false, desc: ENZAR}, (async (message, match) => {
 
-            await message.client.sendMessage(message.jid, HISEN, MessageType.text);
+            await message.client.sendMessage(message.jid, ENSEN, MessageType.text);
             await new Promise(r => setTimeout(r, 4000));
 
             // Numbers
@@ -112,7 +112,7 @@ else if (con.LANG === 'HI') {
 
             var i = Math.floor(6*Math.random())
 
-            await message.client.sendMessage(message.jid, HISON + `${r_text[i]}`, MessageType.text);
+            await message.client.sendMessage(message.jid, ENSON + `${r_text[i]}`, MessageType.text);
 
         }));
     }
